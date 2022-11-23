@@ -17,8 +17,4 @@ function List(props) {
   );
 }
 
-List.propTypes = {
-  users: PropTypes.arrayOf(PropTypes.instanceOf(User)),
-};
-
 export default List;
